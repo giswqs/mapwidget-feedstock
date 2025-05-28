@@ -1,5 +1,5 @@
 {% set name = "mapwidget" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mapwidget-{{ version }}.tar.gz
-  sha256: 6cf82c99214673a9dd22c8231cc5d54083dc5e3a8204d8d33ee9d872bf4cf21c
+  sha256: 2ad8abf07eeb4813ceda440552a43afe368dd1d686ede3e710c331f039440cff
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -33,13 +33,13 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/giswqs/mapwidget
+  home: https://github.com/opengeos/mapwidget
   summary: Custom Jupyter widgets for creating interactive maps
   license: MIT
   license_file: LICENSE
   description: Custom Jupyter widgets for creating interactive maps with popular JavaScript mapping libraries, such as Cesium, Mapbox, MapLibre, Leaflet, and OpenLayers.
   doc_url: https://mapwidget.gishub.org
-  dev_url: https://github.com/giswqs/mapwidget
+  dev_url: https://github.com/opengeos/mapwidget
 
 extra:
   recipe-maintainers:
