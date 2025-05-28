@@ -3,13 +3,13 @@ About mapwidget-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mapwidget-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/giswqs/mapwidget
+Home: https://github.com/opengeos/mapwidget
 
 Package license: MIT
 
 Summary: Custom Jupyter widgets for creating interactive maps
 
-Development: https://github.com/giswqs/mapwidget
+Development: https://github.com/opengeos/mapwidget
 
 Documentation: https://mapwidget.gishub.org
 
